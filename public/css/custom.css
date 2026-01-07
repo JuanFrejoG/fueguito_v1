@@ -1,0 +1,118 @@
+/* CSS Document */
+
+body {
+        background-image: url('/public/images/background-login.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .card-header {
+        background: transparent;
+        border-bottom: none;
+    }
+    /* Estilos para el fondo con transparencia */
+   .dashboard-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 5vh 0;
+	height: 100%;
+	padding: 2% 5%;
+}
+/* Base pagination styling */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+/* Style each pagination item */
+.pagination li {
+  display: inline;
+}
+
+.pagination li a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  margin-left: -1px;
+}
+
+/* Hover effects */
+.pagination li a:hover {
+  color: #0056b3;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+/* Active state */
+.pagination .active a {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Disabled state */
+.pagination .disabled a {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.form-control {	
+	border-color: #0480fd;
+}
+.form-control {
+	border-color: #0480fd;
+}
+.kpi-card {
+	background-color: #f0e6f7;
+	border-radius: 10px;
+	color: #6c757d;
+	border: 5px solid #ffffff;
+	box-shadow: 10px 10px 10px #aaa;
+}
+
+.kpi-card .card-body {
+    text-align: center; /* Alinear el contenido al centro */
+}
+
+.kpi-icon {
+    font-size: 3em; /* Tamaño del icono */
+    color: #a991f7; /* Color del icono */
+    margin-bottom: 10px; /* Espacio debajo del icono */
+}
+
+.kpi-card h5 {
+    font-size: 1.5em; /* Tamaño del título */
+    color: #4a4a4a; /* Color del título */
+    margin-bottom: 15px; /* Espacio debajo del título */
+}
+.card-text {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.kpi-card-importe {
+    background-color: #e6f4f1; /* Color de fondo azul claro */
+}
+.kpi-card-conFoto{
+	 background-color: #fde4cf;
+	
+}
+.kpi-card-detallesLimpieza {
+    background-color: #fde4cf; /* Un tono suave que combina con tus otros colores pastel */
+    /* Aquí puedes añadir otros estilos si lo deseas */
+}
+
+
+.kpi-card-tipo {
+    background-color: #FAD2E1; /* Nuevo color pastel */
+}
+
+
+
